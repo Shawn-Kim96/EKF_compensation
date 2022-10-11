@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ekf-compensation"
+version = "0.1.0"
+description = ""
+authors = ["suhyun.kim <suhyun.kim@42dot.ai>"]
+readme = "README.md"
+packages = [{include = "ekf_compensation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+iso8601 = "^1.1.0"
+pandas = "^1.5.0"
+python-dotenv = "^0.21.0"
+matplotlib = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
